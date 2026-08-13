@@ -47,7 +47,6 @@ public class LoginPage {
     @Step
     public void clickSubmit() {
         submitButton.click();
-//        assertThat(page).hasURL(Pattern.compile(".*logged-in-successfully/?$"));
     }
 
     @Step
