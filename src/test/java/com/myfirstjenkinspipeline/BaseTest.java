@@ -26,7 +26,7 @@ public class BaseTest {
 
         final BrowserType.LaunchOptions options = new BrowserType.LaunchOptions();
         options.setChannel("chrome")
-               .setHeadless(false);
+               .setHeadless(true);
 
         browser = playwright.chromium()
                             .launch(options);
